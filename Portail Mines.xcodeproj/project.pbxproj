@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4909D6FA162C773500A1764A /* FluxTelechargement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4909D6F9162C773500A1764A /* FluxTelechargement.m */; };
+		498A98151609FAB300C6225A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A98141609FAB300C6225A /* UIKit.framework */; };
+		498A98171609FAB300C6225A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A98161609FAB300C6225A /* Foundation.framework */; };
+		498A98191609FAB300C6225A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A98181609FAB300C6225A /* CoreGraphics.framework */; };
+		498A981F1609FAB300C6225A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498A981D1609FAB300C6225A /* InfoPlist.strings */; };
+		498A98211609FAB300C6225A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A98201609FAB300C6225A /* main.m */; };
+		498A98251609FAB300C6225A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A98241609FAB300C6225A /* AppDelegate.m */; };
+		498A98281609FAB300C6225A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A98271609FAB300C6225A /* FirstViewController.m */; };
+		498A98311609FAB300C6225A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 498A98301609FAB300C6225A /* second.png */; };
+		498A98331609FAB300C6225A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 498A98321609FAB300C6225A /* second@2x.png */; };
+		498A98361609FAB300C6225A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498A98341609FAB300C6225A /* FirstViewController.xib */; };
+		498A98411609FAB300C6225A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A98401609FAB300C6225A /* SenTestingKit.framework */; };
+		498A98421609FAB300C6225A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A98141609FAB300C6225A /* UIKit.framework */; };
+		498A98431609FAB300C6225A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A98161609FAB300C6225A /* Foundation.framework */; };
+		498A984B1609FAB300C6225A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498A98491609FAB300C6225A /* InfoPlist.strings */; };
+		498A984E1609FAB300C6225A /* Portail_MinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A984D1609FAB300C6225A /* Portail_MinesTests.m */; };
+		498A9859160A0EF300C6225A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 498A9858160A0EF300C6225A /* first.png */; };
+		498A985B160A0FEF00C6225A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 498A985A160A0FEF00C6225A /* first@2x.png */; };
+		498A9867160A14C000C6225A /* IdentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A9865160A14C000C6225A /* IdentificationViewController.m */; };
+		498A9868160A14C000C6225A /* IdentificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498A9866160A14C000C6225A /* IdentificationViewController.xib */; };
+		498A9870160A342100C6225A /* Reseau.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A986F160A342100C6225A /* Reseau.m */; };
+		49E07679162AEB0A00F7B511 /* Trombi.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E07677162AEB0A00F7B511 /* Trombi.m */; };
+		49E0767A162AEB0A00F7B511 /* Trombi.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E07678162AEB0A00F7B511 /* Trombi.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498A98441609FAB300C6225A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498A98071609FAB300C6225A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498A980F1609FAB300C6225A;
+			remoteInfo = "Portail Mines";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4909D6F8162C773500A1764A /* FluxTelechargement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluxTelechargement.h; sourceTree = "<group>"; };
+		4909D6F9162C773500A1764A /* FluxTelechargement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluxTelechargement.m; sourceTree = "<group>"; };
+		498A98101609FAB300C6225A /* Portail Mines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portail Mines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498A98141609FAB300C6225A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		498A98161609FAB300C6225A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		498A98181609FAB300C6225A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		498A981C1609FAB300C6225A /* Portail Mines-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portail Mines-Info.plist"; sourceTree = "<group>"; };
+		498A981E1609FAB300C6225A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498A98201609FAB300C6225A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		498A98221609FAB300C6225A /* Portail Mines-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Portail Mines-Prefix.pch"; sourceTree = "<group>"; };
+		498A98231609FAB300C6225A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		498A98241609FAB300C6225A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		498A98261609FAB300C6225A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		498A98271609FAB300C6225A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		498A98301609FAB300C6225A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		498A98321609FAB300C6225A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		498A98351609FAB300C6225A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		498A983F1609FAB300C6225A /* Portail MinesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portail MinesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498A98401609FAB300C6225A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		498A98481609FAB300C6225A /* Portail MinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portail MinesTests-Info.plist"; sourceTree = "<group>"; };
+		498A984A1609FAB300C6225A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498A984C1609FAB300C6225A /* Portail_MinesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portail_MinesTests.h; sourceTree = "<group>"; };
+		498A984D1609FAB300C6225A /* Portail_MinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portail_MinesTests.m; sourceTree = "<group>"; };
+		498A9858160A0EF300C6225A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		498A985A160A0FEF00C6225A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		498A9864160A14C000C6225A /* IdentificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentificationViewController.h; sourceTree = "<group>"; };
+		498A9865160A14C000C6225A /* IdentificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentificationViewController.m; sourceTree = "<group>"; };
+		498A9866160A14C000C6225A /* IdentificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdentificationViewController.xib; sourceTree = "<group>"; };
+		498A986E160A342100C6225A /* Reseau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reseau.h; sourceTree = "<group>"; };
+		498A986F160A342100C6225A /* Reseau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reseau.m; sourceTree = "<group>"; };
+		49E07676162AEB0A00F7B511 /* Trombi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trombi.h; sourceTree = "<group>"; };
+		49E07677162AEB0A00F7B511 /* Trombi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trombi.m; sourceTree = "<group>"; };
+		49E07678162AEB0A00F7B511 /* Trombi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Trombi.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498A980D1609FAB300C6225A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A98151609FAB300C6225A /* UIKit.framework in Frameworks */,
+				498A98171609FAB300C6225A /* Foundation.framework in Frameworks */,
+				498A98191609FAB300C6225A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498A983B1609FAB300C6225A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A98411609FAB300C6225A /* SenTestingKit.framework in Frameworks */,
+				498A98421609FAB300C6225A /* UIKit.framework in Frameworks */,
+				498A98431609FAB300C6225A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498A98051609FAB300C6225A = {
+			isa = PBXGroup;
+			children = (
+				498A981A1609FAB300C6225A /* Portail Mines */,
+				498A98461609FAB300C6225A /* Portail MinesTests */,
+				498A98131609FAB300C6225A /* Frameworks */,
+				498A98111609FAB300C6225A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498A98111609FAB300C6225A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498A98101609FAB300C6225A /* Portail Mines.app */,
+				498A983F1609FAB300C6225A /* Portail MinesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498A98131609FAB300C6225A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498A98141609FAB300C6225A /* UIKit.framework */,
+				498A98161609FAB300C6225A /* Foundation.framework */,
+				498A98181609FAB300C6225A /* CoreGraphics.framework */,
+				498A98401609FAB300C6225A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		498A981A1609FAB300C6225A /* Portail Mines */ = {
+			isa = PBXGroup;
+			children = (
+				498A98231609FAB300C6225A /* AppDelegate.h */,
+				498A98241609FAB300C6225A /* AppDelegate.m */,
+				498A986E160A342100C6225A /* Reseau.h */,
+				498A986F160A342100C6225A /* Reseau.m */,
+				498A98261609FAB300C6225A /* FirstViewController.h */,
+				498A98271609FAB300C6225A /* FirstViewController.m */,
+				498A9864160A14C000C6225A /* IdentificationViewController.h */,
+				498A9865160A14C000C6225A /* IdentificationViewController.m */,
+				49E07676162AEB0A00F7B511 /* Trombi.h */,
+				49E07677162AEB0A00F7B511 /* Trombi.m */,
+				4909D6F8162C773500A1764A /* FluxTelechargement.h */,
+				4909D6F9162C773500A1764A /* FluxTelechargement.m */,
+				498A98341609FAB300C6225A /* FirstViewController.xib */,
+				49E07678162AEB0A00F7B511 /* Trombi.xib */,
+				498A9866160A14C000C6225A /* IdentificationViewController.xib */,
+				498A981B1609FAB300C6225A /* Supporting Files */,
+			);
+			path = "Portail Mines";
+			sourceTree = "<group>";
+		};
+		498A981B1609FAB300C6225A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E0767C162AEB9900F7B511 /* Images */,
+				498A981C1609FAB300C6225A /* Portail Mines-Info.plist */,
+				498A981D1609FAB300C6225A /* InfoPlist.strings */,
+				498A98201609FAB300C6225A /* main.m */,
+				498A98221609FAB300C6225A /* Portail Mines-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		498A98461609FAB300C6225A /* Portail MinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				498A984C1609FAB300C6225A /* Portail_MinesTests.h */,
+				498A984D1609FAB300C6225A /* Portail_MinesTests.m */,
+				498A98471609FAB300C6225A /* Supporting Files */,
+			);
+			path = "Portail MinesTests";
+			sourceTree = "<group>";
+		};
+		498A98471609FAB300C6225A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498A98481609FAB300C6225A /* Portail MinesTests-Info.plist */,
+				498A98491609FAB300C6225A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E0767C162AEB9900F7B511 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				498A9858160A0EF300C6225A /* first.png */,
+				498A985A160A0FEF00C6225A /* first@2x.png */,
+				498A98301609FAB300C6225A /* second.png */,
+				498A98321609FAB300C6225A /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498A980F1609FAB300C6225A /* Portail Mines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498A98511609FAB400C6225A /* Build configuration list for PBXNativeTarget "Portail Mines" */;
+			buildPhases = (
+				498A980C1609FAB300C6225A /* Sources */,
+				498A980D1609FAB300C6225A /* Frameworks */,
+				498A980E1609FAB300C6225A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Portail Mines";
+			productName = "Portail Mines";
+			productReference = 498A98101609FAB300C6225A /* Portail Mines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		498A983E1609FAB300C6225A /* Portail MinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498A98541609FAB400C6225A /* Build configuration list for PBXNativeTarget "Portail MinesTests" */;
+			buildPhases = (
+				498A983A1609FAB300C6225A /* Sources */,
+				498A983B1609FAB300C6225A /* Frameworks */,
+				498A983C1609FAB300C6225A /* Resources */,
+				498A983D1609FAB300C6225A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498A98451609FAB300C6225A /* PBXTargetDependency */,
+			);
+			name = "Portail MinesTests";
+			productName = "Portail MinesTests";
+			productReference = 498A983F1609FAB300C6225A /* Portail MinesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498A98071609FAB300C6225A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Valérian Roche";
+			};
+			buildConfigurationList = 498A980A1609FAB300C6225A /* Build configuration list for PBXProject "Portail Mines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 498A98051609FAB300C6225A;
+			productRefGroup = 498A98111609FAB300C6225A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498A980F1609FAB300C6225A /* Portail Mines */,
+				498A983E1609FAB300C6225A /* Portail MinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498A980E1609FAB300C6225A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A981F1609FAB300C6225A /* InfoPlist.strings in Resources */,
+				498A98311609FAB300C6225A /* second.png in Resources */,
+				498A98331609FAB300C6225A /* second@2x.png in Resources */,
+				498A98361609FAB300C6225A /* FirstViewController.xib in Resources */,
+				498A9859160A0EF300C6225A /* first.png in Resources */,
+				498A985B160A0FEF00C6225A /* first@2x.png in Resources */,
+				498A9868160A14C000C6225A /* IdentificationViewController.xib in Resources */,
+				49E0767A162AEB0A00F7B511 /* Trombi.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498A983C1609FAB300C6225A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A984B1609FAB300C6225A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498A983D1609FAB300C6225A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498A980C1609FAB300C6225A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A98211609FAB300C6225A /* main.m in Sources */,
+				498A98251609FAB300C6225A /* AppDelegate.m in Sources */,
+				498A98281609FAB300C6225A /* FirstViewController.m in Sources */,
+				498A9867160A14C000C6225A /* IdentificationViewController.m in Sources */,
+				498A9870160A342100C6225A /* Reseau.m in Sources */,
+				49E07679162AEB0A00F7B511 /* Trombi.m in Sources */,
+				4909D6FA162C773500A1764A /* FluxTelechargement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498A983A1609FAB300C6225A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A984E1609FAB300C6225A /* Portail_MinesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498A98451609FAB300C6225A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498A980F1609FAB300C6225A /* Portail Mines */;
+			targetProxy = 498A98441609FAB300C6225A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		498A981D1609FAB300C6225A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A981E1609FAB300C6225A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		498A98341609FAB300C6225A /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A98351609FAB300C6225A /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		498A98491609FAB300C6225A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A984A1609FAB300C6225A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498A984F1609FAB400C6225A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		498A98501609FAB400C6225A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498A98521609FAB400C6225A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portail Mines/Portail Mines-Prefix.pch";
+				INFOPLIST_FILE = "Portail Mines/Portail Mines-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		498A98531609FAB400C6225A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portail Mines/Portail Mines-Prefix.pch";
+				INFOPLIST_FILE = "Portail Mines/Portail Mines-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		498A98551609FAB400C6225A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Portail Mines.app/Portail Mines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portail Mines/Portail Mines-Prefix.pch";
+				INFOPLIST_FILE = "Portail MinesTests/Portail MinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		498A98561609FAB400C6225A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Portail Mines.app/Portail Mines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portail Mines/Portail Mines-Prefix.pch";
+				INFOPLIST_FILE = "Portail MinesTests/Portail MinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498A980A1609FAB300C6225A /* Build configuration list for PBXProject "Portail Mines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A984F1609FAB400C6225A /* Debug */,
+				498A98501609FAB400C6225A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498A98511609FAB400C6225A /* Build configuration list for PBXNativeTarget "Portail Mines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A98521609FAB400C6225A /* Debug */,
+				498A98531609FAB400C6225A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498A98541609FAB400C6225A /* Build configuration list for PBXNativeTarget "Portail MinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A98551609FAB400C6225A /* Debug */,
+				498A98561609FAB400C6225A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498A98071609FAB300C6225A /* Project object */;
+}
